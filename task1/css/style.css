@@ -1,0 +1,148 @@
+body {
+    background-color: #EFF8FF;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color: #4A83BA;
+    color: white;
+}
+
+body header table {
+    margin-left: 14%;
+}
+
+body header table h1,a {
+    color: white;
+    font-weight: normal;
+}
+
+body header table #title {
+    padding-left: 15px;
+}
+
+body header table #username {
+    padding-left: 550px;
+}
+
+body div.content {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 13%;
+}
+
+body div.content h3 {
+    color: #5683BC;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+body div.content table {
+    background-color: white;
+    border: 1px solid #C1C6CA;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 2px 2px #D6DBDF;
+}
+
+body div.content table,tr {
+    border: 1px solid #DFDFDF;
+}
+
+body div.content table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+body div.content table td.type {
+    color: #698AAD;
+}
+
+body div.content table,tr {
+    color: #3C3C3C;
+}
+
+body div.content table td.indicator img {
+    vertical-align: middle;
+    float: inherit;
+}
+
+body div.content table td.c1 {
+    width: 180px;
+}
+
+body div.content table td.c2 {
+    width: 200px;
+}
+
+body div.content table td.c3 {
+    width: 200px;
+}
+
+body div.content table td.indicator {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+#dropdown > ul > li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown ul li a {
+    display: block;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#dropdown > ul > li > a {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 25px;
+}
+
+#dropdown ul ul {
+    position: absolute;
+    left: -9999px;
+    top: 70px;
+    opacity: 0;
+}
+
+#dropdown > ul > li:hover > ul {
+    left: auto;
+    top: 44px;
+    opacity: 1;
+}
+
+#dropdown ul ul li a {
+    width: 80px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: black;
+    background: white;
+}
+
+#dropdown > ul > li > ul::after {
+    content: '';
+    border: 6px solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom-color: #ffffff;
+    position: absolute;
+    top: -12px;
+    left: 70px;
+}
+
+
