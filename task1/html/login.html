@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8"/>
+    <link href="../css/index.css" rel="stylesheet">
+</head>
+<body>
+    <form id="login">
+        <h3>Выполнить вход в систему</h3>
+        <input  placeholder="e-mail" type="text" name="email"><br/>
+        <input  placeholder="пароль" type="text" name="password"><br/>
+        <a href='#'>Зарегистрироваться</a><button>Войти</button>
+    </form>
+
+    <form id="registration">
+        <h3>Зарегистрироваться в системе</h3>
+        <input  placeholder="e-mail" type="text" name="email"><br/>
+        <input  placeholder="пароль" type="text" name="password"><br/>
+        <input  placeholder="повторите пароль" type="text" name="passwordrepeat"><br/>
+        <select name="departments">
+            <option value="" disabled selected style="display: none;">выберите департамент</option>
+            <option value="corporatesystems">Департамент корпоративных систем</option>
+            <option value="paymentsystems">Департамент платежных систем</option>
+            <option value="marketing">Департамент маркетинга</option>
+        </select><br/>
+        <a href='#'>Уже зарегистрирован</a><button>Войти</button>
+    </form>
+</body>
+</html>
